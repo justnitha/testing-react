@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.link{
+  display: flex;
+}
+.link a,li{
+  text-decoration: none;
+  list-style: none;
+}
+
+input.input-error, select.input-error, textarea.input-error {
+  border-color: #fc8181;
+  border-width: 2px;
+  padding: 8px;
+  width:100%;
+}
+

@@ -1,0 +1,21 @@
+#onclick{
+    text-transform: uppercase;
+    border-bottom-width: 3px;
+    border-color:white;
+}
+#onclick:hover{
+    border-bottom-width: 3px;
+    border-color:#285538;
+    transition:0.5s;
+}
+#onclick.activee {
+    border-bottom-width: 3px;
+    border-color:#285538;
+}
+
+
+
+
+
+
+
