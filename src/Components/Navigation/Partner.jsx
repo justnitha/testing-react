@@ -8,7 +8,7 @@ const Partner = () => {
     return(
         
         <div>
-            <div className="h-[70vh] mt-5" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat", backgroundSize:'cover'}}></div>
+            <div className="h-[74.5vh]" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat", backgroundSize:'cover'}}></div>
             <section>
                 <div className="text-center mt-20">
                     <h1 className="uppercase text-hijau font-extrabold text-4xl">partnership opportunities</h1>

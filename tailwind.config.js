@@ -9,6 +9,7 @@ module.exports = {
       {
         'hijau':'#285538',
         "abu-abu" : '#f7f7f7',
+        "abu-abu-100" : '#56595c',
       }
     },
   },

@@ -88,3 +88,25 @@
     border-bottom-width: 3px;
     border-color:#285538;
 }
+.toggle-buttonn {
+  
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-menuu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: none;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.dropdown-menuu.open {
+  max-height: 100vh;
+}
+
