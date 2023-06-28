@@ -16,7 +16,7 @@ const App = function() {
   return(
     <Router>
       <Routes>
-        <Route path="/#" element={<Brands/>} />
+        <Route path="/" element={<Brands/>} />
         <Route path="about" element={<About/>} />
         <Route path="promo" element={<Promo/>} />
         <Route path="app" element={<Aps/>} />
