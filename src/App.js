@@ -17,11 +17,11 @@ const App = function() {
     <Router>
       <Routes>
         <Route path="/" element={<Brands/>} />
-        <Route path="about" element={<About/>} />
-        <Route path="promo" element={<Promo/>} />
-        <Route path="app" element={<Aps/>} />
-        <Route path="partnership" element={<Partnership/>} />
-        <Route path="contact" element={<ContactUs/>} />
+        <Route path="testing-react/about" element={<About/>} />
+        <Route path="testing-react/promo" element={<Promo/>} />
+        <Route path="testing-react/app" element={<Aps/>} />
+        <Route path="testing-react/partnership" element={<Partnership/>} />
+        <Route path="testing-react/contact" element={<ContactUs/>} />
         <Route path="*" element={<Notfound />}/>
       </Routes>
     </Router>
