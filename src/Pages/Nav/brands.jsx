@@ -29,7 +29,7 @@ const Brands =() =>{
             <Navbar/>
             <section className="">
                 
-                <div className="h-[33.9rem] bg-fixed z-0" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                <div className="h-[36rem] bg-fixed z-0" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                     <img src={image} alt="" className="w-2/5 left-[27rem] bottom-[8rem] absolute" style={{zIndex:"1"}}/>
                     <div className="bg-black w-full h-full py-[129px] opacity-50">
                     </div>
