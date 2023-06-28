@@ -16,7 +16,7 @@ const App = function() {
   return(
     <Router>
       <Routes>
-        <Route path="/testing-react" element={<Brands/>} />
+        <Route path="/testing-react/" element={<Brands/>} />
         <Route path="/testing-react/about" element={<About/>} />
         <Route path="/testing-react/promo" element={<Promo/>} />
         <Route path="/testing-react/app" element={<Aps/>} />
