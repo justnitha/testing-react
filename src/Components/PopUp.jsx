@@ -21,7 +21,7 @@ const Popup = () => {
         {isOpen && (
             <div className="fixed bottom-28 text-white hover:text-slate-400 right-0">
             
-                <a onClick={closePopup} href="/partnership">
+                <a onClick={closePopup} href="#/partnership">
                     <img src={require ('../plugin/img/TOOL.png')} className='ms-auto w-[90%]' />
                 </a>
             </div>
