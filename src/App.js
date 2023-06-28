@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import {HashRouter as Router, Routes, Route} from "react-router-dom"
+// import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import './App.css';
 
 import Notfound from "./Pages/Nav/Notfound";  
@@ -15,7 +16,7 @@ const App = function() {
   return(
     <Router>
       <Routes>
-        <Route path="/" element={<Brands/>} />
+        <Route path="/#" element={<Brands/>} />
         <Route path="about" element={<About/>} />
         <Route path="promo" element={<Promo/>} />
         <Route path="app" element={<Aps/>} />
