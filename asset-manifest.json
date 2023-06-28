@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/testing-react/static/css/main.9d3312ff.css",
-    "main.js": "/testing-react/static/js/main.8e83982b.js",
+    "main.css": "/testing-react/static/css/main.1cd1d926.css",
+    "main.js": "/testing-react/static/js/main.f8b8a865.js",
     "static/js/787.f6183f32.chunk.js": "/testing-react/static/js/787.f6183f32.chunk.js",
     "static/media/partner_img.png": "/testing-react/static/media/partner_img.e15c6b5beb82b69b1d67.png",
     "static/media/app-image.png": "/testing-react/static/media/app-image.ab6aedad2ce1b65b89ac.png",
     "static/media/fa-solid-900.ttf": "/testing-react/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/pochajjang-Interior7.jpg": "/testing-react/static/media/pochajjang-Interior7.048d6d043333f2aad82d.jpg",
     "static/media/oseng-mie.jpg": "/testing-react/static/media/oseng-mie.a7e707e54b2ccc2bc511.jpg",
     "static/media/jumboKulo.jpg": "/testing-react/static/media/jumboKulo.45baa5a0b5d8001f5849.jpg",
     "static/media/mie-oseng-hover.png": "/testing-react/static/media/mie-oseng-hover.c0c36316862b9f878f27.png",
+    "static/media/jumboKulo2.jpg": "/testing-react/static/media/jumboKulo2.3ecc0ebfdd1bd96c3c7c.jpg",
     "static/media/promo3.jpg": "/testing-react/static/media/promo3.43120115422263d06000.jpg",
     "static/media/promo4.jpg": "/testing-react/static/media/promo4.095f54f4b341e6dddfee.jpg",
     "static/media/kitamura.jpg": "/testing-react/static/media/kitamura.42d6b973a31d7b85ef8e.jpg",
@@ -21,11 +23,16 @@
     "static/media/xiji-hover.png": "/testing-react/static/media/xiji-hover.6feb8522d7b71803d0de.png",
     "static/media/motahu-hover.png": "/testing-react/static/media/motahu-hover.2ea2ef48e4b3323a6687.png",
     "static/media/bu-eva-sambal.jpg": "/testing-react/static/media/bu-eva-sambal.62990fb726dc08e6b178.jpg",
+    "static/media/xiji2.jpg": "/testing-react/static/media/xiji2.69a2335b1d683872bad1.jpg",
     "static/media/mazeru.jpg": "/testing-react/static/media/mazeru.5276282949491f228cd4.jpg",
+    "static/media/kkulo.png": "/testing-react/static/media/kkulo.f669f8c4687fb8e18a34.png",
     "static/media/fa-solid-900.woff2": "/testing-react/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/xiboba1.png": "/testing-react/static/media/xiboba1.deb30a0b6cfaa2cbb040.png",
     "static/media/motahumenu.jpg": "/testing-react/static/media/motahumenu.54bbd0a11386d53c8733.jpg",
     "static/media/app-bg2.png": "/testing-react/static/media/app-bg2.f39d77c0dd1fc05b2caf.png",
     "static/media/xiji.jpg": "/testing-react/static/media/xiji.13ae70b87acf42932a92.jpg",
+    "static/media/xiboba-biscoff.jpg": "/testing-react/static/media/xiboba-biscoff.0ac9117db0a0ba22f34f.jpg",
+    "static/media/All-Brands.png": "/testing-react/static/media/All-Brands.0b7185e33213ffa44f4a.png",
     "static/media/fa-brands-400.woff2": "/testing-react/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/EL-IMAGE-BANK-11.jpg": "/testing-react/static/media/EL-IMAGE-BANK-11.e552824dddc064978cf8.jpg",
     "static/media/absolutea-menu.jpg": "/testing-react/static/media/absolutea-menu.96d74771b5e48fbf53e3.jpg",
@@ -34,7 +41,9 @@
     "static/media/menu1.jpg": "/testing-react/static/media/menu1.983dbb26ffcb32a908f3.jpg",
     "static/media/menu2.jpg": "/testing-react/static/media/menu2.e7b51048d497e5f65308.jpg",
     "static/media/tulisan.png": "/testing-react/static/media/tulisan.e9be6ae830f420a0da8a.png",
+    "static/media/kulogroup.png": "/testing-react/static/media/kulogroup.3b11b8875a0d6a1dcd3a.png",
     "static/media/fa-regular-400.woff2": "/testing-react/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/pochajang1.png": "/testing-react/static/media/pochajang1.d2ff1534edec5825a6f6.png",
     "static/media/ea-hover.png": "/testing-react/static/media/ea-hover.e3cfd31c98c5e58faf54.png",
     "static/media/logo.png": "/testing-react/static/media/logo.81e566620f1636ffb77c.png",
     "static/media/fa-v4compatibility.ttf": "/testing-react/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
@@ -44,12 +53,12 @@
     "static/media/slick.ttf": "/testing-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/testing-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/testing-react/index.html",
-    "main.9d3312ff.css.map": "/testing-react/static/css/main.9d3312ff.css.map",
-    "main.8e83982b.js.map": "/testing-react/static/js/main.8e83982b.js.map",
+    "main.1cd1d926.css.map": "/testing-react/static/css/main.1cd1d926.css.map",
+    "main.f8b8a865.js.map": "/testing-react/static/js/main.f8b8a865.js.map",
     "787.f6183f32.chunk.js.map": "/testing-react/static/js/787.f6183f32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d3312ff.css",
-    "static/js/main.8e83982b.js"
+    "static/css/main.1cd1d926.css",
+    "static/js/main.f8b8a865.js"
   ]
 }
