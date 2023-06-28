@@ -14,7 +14,7 @@ const Navbar = () => {
             <ul className="flex gap-9 justify-center uppercase mt-7 text-sm">
                 <li className="text-[#285538] font-bold bnn"><a href="#/about">About</a></li>
                 <li class="dropdown z-10 bnn ">
-                    <a href="/" className="text-[#285538] font-bold">Brands <i class="fa-solid fa-chevron-down font-bold"></i></a>
+                    <a href="#/" className="text-[#285538] font-bold">Brands <i class="fa-solid fa-chevron-down font-bold"></i></a>
                     <div class="dropdown-content text-start">
                         <a href="#" class="btn active">Kedai Kopi Kulo</a>
                         <a href="#" class="btn">pochajjang</a>
