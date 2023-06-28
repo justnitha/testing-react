@@ -27,10 +27,10 @@ const Navbar = () => {
                         <a href="#" class="btn">absolutea</a>
                     </div>
                 </li>
-                <li className="text-[#285538] font-bold bnn"><a href="/promo">promo</a></li>
-                <li className="text-[#285538] font-bold bnn"><a href="/app">app</a></li>
-                <li className="text-[#285538] font-bold bnn"><a href="/partnership">partnership</a></li>
-                <li className="text-[#285538] font-bold bnn"><a href="/contact">contact us</a></li>
+                <li className="text-[#285538] font-bold bnn"><a href="#/promo">promo</a></li>
+                <li className="text-[#285538] font-bold bnn"><a href="#/app">app</a></li>
+                <li className="text-[#285538] font-bold bnn"><a href="#/partnership">partnership</a></li>
+                <li className="text-[#285538] font-bold bnn"><a href="#/contact">contact us</a></li>
                 
             </ul>
             
