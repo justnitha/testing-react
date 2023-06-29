@@ -1,0 +1,12 @@
+.hide-show-div {
+    margin:15px 0 0 0 ;
+    max-height: 40px;
+    overflow: hidden;
+    transition: max-height  ease-in-out;
+}  
+.hide-show-div.show {
+    max-height: 500px;
+    transition: max-height 0.7s ease-in-out;
+}
+  
+  

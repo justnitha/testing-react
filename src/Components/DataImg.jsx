@@ -98,6 +98,18 @@ const DataImg =() => {
             <div className="brd">
               <img src="https://kulogroup.com/wp-content/uploads/2021/06/Kedai-Kopi-Kulo-Foto-Brand-Image-1.jpg" alt="" />
             </div>
+            <div className="brd">
+              <img src="https://kulogroup.com/wp-content/uploads/2021/06/Kedai-Kopi-Kulo-Foto-Interior-2.jpg" alt="" />
+            </div>
+            <div className="brd">
+              <img src="https://kulogroup.com/wp-content/uploads/2021/06/Kedai-Kopi-Kulo-Foto-Interior-1.jpg" alt="" />
+            </div>
+            <div className="brd">
+              <img src="https://kulogroup.com/wp-content/uploads/2021/06/Kedai-Kopi-Kulo-Foto-Brand-Image-6.jpg" alt="" />
+            </div>
+            <div className="brd">
+              <img src="https://kulogroup.com/wp-content/uploads/2021/06/Kedai-Kopi-Kulo-Foto-Brand-Image-5.jpg" alt="" />
+            </div>
             </Slider>
         </div>
     )

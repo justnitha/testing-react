@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { useState } from "react";
 import Navbar from "../../Components/Navbar";
 import background from "../../plugin/img/jumboKulo.jpg"
-import { Location } from "../../Components/Lokasi";
+import { Location } from "../../Components/js/Lokasi";
 import image from "../../plugin/img/tulisan.png";
 import DataImg from "../../Components/DataImg";
 import Footer from "../../Components/Footer";
@@ -10,6 +10,7 @@ import '../../../src/App.css';
 import "../../plugin/font-awesome/css/all.css";
 import '../../plugin/css/navbar.css';
 import Scroll from "../../Components/ScrolTop";
+import "../../plugin/css/dropson.css"
 
 const Brands =() =>{
     const [show,setShow] = useState({});
@@ -27,14 +28,13 @@ const Brands =() =>{
     return(
         <div className=" scroll-smooth">
             <Navbar/>
-            <section className="">
-                
-                <div className="h-[36rem] bg-fixed z-0" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                    <img src={image} alt="" className="w-2/5 left-[27rem] bottom-[8rem] absolute" style={{zIndex:"1"}}/>
+            <section>
+                <div className="h-[27rem] sm:h-[34rem] md:h-[39rem] lg:h-[36rem] bg-fixed z-0 bg-no-repeat bg-cover" style={{ backgroundImage:`url(${background})`}}>
+                    <img src={image} alt="gamabr" className=" mt-36 px-10 sm:mt-30 sm:px-20 lg:px-0 lg:mt-0 md:w-[70%] lg:w-2/5 md:left-[10rem] lg:left-[24rem] md:top-[5rem] lg:top-[18rem] absolute" style={{zIndex:"1"}}/>
                     <div className="bg-black w-full h-full py-[129px] opacity-50">
                     </div>
                 </div>
-                <div className="mt-12 mx-auto text-center">
+                <div className="px-5 sm:text-xl md:text-lg lg:px-0 mt-12 mx-auto text-center md:mt-16">
                     <small className="text-center">
                         Kedai Kopi Kulo merupakan perjalanan pertama dari KULO Group sampai akhirnya terciptalah beberapa brand makanan dan minuman lain di bawah naungan <br/> KULO Group. Kedai Kopi Kulo adalah titik perubahan dari “Coffee-to-go” di dalam Market Indonesia. <br/>
                         Sebagai pionir yang mempopulerkan menu Avocatto, kini Kedai Kopi Kulo berhasil menciptakan berbagai varian minuman dari produk kopi sampai non-kopi. <br /> Kedai Kopi Kulo menawarkan produk berkualitas dengan harga terjangkau. <br />
@@ -42,36 +42,36 @@ const Brands =() =>{
                     </small>
                 </div>
                 {/* best seling menu */}
-                <div className="mt-32">
-                    <h1 className="text-center uppercase text-4xl font-bold text-hijau">best selling menu</h1>
-                    <div className="flex items-center justify-center container mx-auto mt-10">
+                <div className="mt-16 lg:mt-32 md:mt-16">
+                    <h1 className="text-center uppercase text-2xl sm:text-3xl lg:text-4xl font-bold text-hijau">best selling menu</h1>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 container mx-auto mt-10">
                         <div>
-                            <div class="img-hover-zoom cursor-pointer">
-                                <img src={ require('../../plugin/img/menu1.jpg')} alt="" className="h-[16rem] "/>
+                            <div class="img-hover-zoom cursor-pointer h-[18rem] lg:h-[16rem]">
+                                <img src={ require('../../plugin/img/menu1.jpg')} alt="" className="h-full w-full"/>
                             </div>
                             <p className="px-5 py-7 text-center bg-abu-abu">Avocatto vanila</p>
                         </div>
                         <div>
-                            <div class="img-hover-zoom cursor-pointer">
-                                <img src={ require('../../plugin/img/menu2.jpg')} alt="" className="h-[16rem]"/>
+                            <div class="img-hover-zoom cursor-pointer h-[18rem] lg:h-[16rem]">
+                                <img src={ require('../../plugin/img/menu2.jpg')} alt="" className="h-full  w-full"/>
                             </div> 
                             <p className="px-5 py-7 text-center bg-abu-abu">Avocatto vanila</p>
                         </div>
                         <div>
-                            <div class="img-hover-zoom cursor-pointer">
-                                <img src={ require('../../plugin/img/menu3jpg.jpg')} alt="" className="h-[16rem]"/>
+                            <div class="img-hover-zoom cursor-pointer h-[18rem] lg:h-[16rem]">
+                                <img src={ require('../../plugin/img/menu3jpg.jpg')} alt="" className="h-full  w-full"/>
                             </div>
                             <p className="px-5 py-7 text-center bg-abu-abu">Avocatto vanila</p>
                         </div>
                         <div>
-                            <div class="img-hover-zoom cursor-pointer">
-                                <img src={ require('../../plugin/img/menu1.jpg')} alt="" className="h-[16rem]"/>
+                            <div class="img-hover-zoom cursor-pointer h-[18rem] lg:h-[16rem]">
+                                <img src={ require('../../plugin/img/menu1.jpg')} alt="" className="h-full  w-full"/>
                             </div>
                             <p className="px-5 py-7 text-center bg-abu-abu">Avocatto vanila</p>
                         </div>
                         <div>
-                            <div class="img-hover-zoom cursor-pointer">
-                                <img src={ require('../../plugin/img/menu2.jpg')} alt="" className="h-[16rem]"/>
+                            <div class="img-hover-zoom cursor-pointer h-[18rem] lg:h-[16rem]">
+                                <img src={ require('../../plugin/img/menu2.jpg')} alt="" className="h-full  w-full"/>
                             </div>
                             <p className="px-5 py-7 text-center bg-abu-abu">Avocatto vanila</p>
                         </div>
@@ -85,7 +85,7 @@ const Brands =() =>{
                 {/* Promo */}
                 <div className="mt-32">
                     <h1 className="uppercase text-center text-4xl font-bold text-hijau">promo</h1>
-                    <div className="flex justify-center mx-auto gap-5 px-10 pb-5 pt-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto gap-5 px-10 pb-5 pt-10">
                         <div className="text-center">
                             <img src={ require('../../plugin/img/promo1.jpg')} alt="" srcset="" />
                             <p className="uppercase text-2xl  font-extrabold text-hijau px-1 mt-4">potongan 35k dari grabfood</p>
@@ -128,21 +128,15 @@ const Brands =() =>{
                     <h3 className="uppercase text-center font-medium">lokasi <br /> 
                         <span className="text-hijau font-bold text-3xl">kedai kopi kulo</span>
                     </h3>
-                    <div className="flex flex-wrap mt-16">
+                    <div className="grid grid-cols-1 px-10 sm:px-5  md:grid-cols-2 md:gap-5 lg:grid-cols-4 mt-16 container mx-auto">
                         {/* lokasi row 3 */}
                         {Location.map((item) =>(
-                            <div key={item.name} style={{
-                                display: show[item.name] ? '' : '',
-                                width: '25%',
-                                padding: '10px',
-                                border: '5px',
-                                borderBlockColor: 'black',
-                                transition:'0.3s ease',
-                            }} className="text-sm">
-                                <button onClick={() => toggleVisibility(item.name)} className="border-b border-slate-400 p-2 w-full text-start">
-                                    {show[item.name] ? '' : ''}
+                            <div key={item.name} 
+                            className={`hide-show-div ${show[item.id] ? 'show' : 'border-b border-slate-400 '}`}>
+                                <button onClick={() => toggleVisibility(item.id)} className="border-b border-slate-400 p-2 w-full text-start">
+                                    {show[item.id] ? '' : ''}
                                     <i class="fa-solid fa-location-dot fa-lg" style={{color:"#285538"}}></i> {item.name}
-                                    {show[item.name] && <div className="mt-2">{item.location}</div>}
+                                    {show[item.id] && <div className="mt-2 ">{item.location}</div>}
                                 </button>
                             </div>   
                         ))}

@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className={`dropdown-menuu ${isOpen ? 'open ' : ''}`}>
                 {/* <div className={`dropdown-menuu ${isOpen ? 'open px-5 (CSS/CLASS UNUTK BUKA)' : 'px-5 (CSS/CLASS UNUTK TUTUP'}`}> */}
                     <ul className="text-abu-abu-100 max-sm:text-xs sm:text-xs font-semibold">
-                        <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/about" className="pe-[17rem] py-2">About us</a></li>
+                        <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/about" className="pe-[15rem] py-2">About us</a></li>
                         <li>
                             <button onClick={Dropdown} className="flex justify-between w-full px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer">
                                 <p>BRANDS</p>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/promo" className="pe-[20rem] py-2">promo</a></li>
                         <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/app" className="pe-[20rem] py-2">app</a></li>
                         <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/partnership" className="pe-[20rem] py-2">partnership</a></li>
-                        <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/contact" className="pe-[13rem] py-2">contact us</a></li>
+                        <li className="px-5 py-2 hover:bg-abu-abu-100 hover:text-white cursor-pointer"><a href="#/contact" className="pe-[10rem] py-2">contact us</a></li>
                     </ul>
                 </div>
                 <img src={Logo} alt="logo" className="h-[4.5rem] mx-auto"/>
