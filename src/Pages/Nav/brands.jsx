@@ -26,7 +26,7 @@ const Brands =() =>{
             <Navbar/>
             <section>
                 <div className="h-[27rem] sm:h-[34rem] md:h-[39rem] lg:h-[36rem] bg-fixed z-0 bg-no-repeat bg-cover" style={{ backgroundImage:`url(${background})`}}>
-                    <img src={image} alt="gamabr" className=" mt-36 px-10 sm:mt-30 sm:px-20 lg:px-0 lg:mt-0 md:w-[70%] lg:w-2/5 md:left-[10rem] lg:left-[24rem] md:top-[5rem] lg:top-[18rem] absolute" style={{zIndex:"1"}}/>
+                    <img src={image} alt="gamabr" className=" mt-36 px-10 sm:mt-30 sm:px-20 lg:px-0 lg:mt-0 md:w-[70%] lg:w-2/5 md:left-[10rem] lg:left-[26rem] md:top-[5rem] lg:top-[18rem] absolute" style={{zIndex:"1"}}/>
                     <div className="bg-black w-full h-full py-[129px] opacity-50">
                     </div>
                 </div>
