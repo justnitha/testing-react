@@ -21,10 +21,6 @@ const Brands =() =>{
             [divId]: !prevState[divId]
         }))
     }
-
-    // const handleTab=(e)=>{
-    //     setShow(e)
-    // 
     return(
         <div className=" scroll-smooth">
             <Navbar/>
