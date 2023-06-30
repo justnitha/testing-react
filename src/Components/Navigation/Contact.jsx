@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import { ContactScema } from "../../schema/contact";
-import Animation from "../Perhitungan";
+
 
 
 const Contact = () => {
@@ -27,11 +27,11 @@ const Contact = () => {
 
     return(
         <div>
-            <div className="w-[60%] mt-28 container mx-auto">
-                <h1 className="uppercase text-hijau font-bold text-5xl">contact us</h1>
+            <div className="w-[80%] lg:w-[60%] mt-28 container mx-auto">
+                <h1 className="uppercase text-hijau font-bold text-2xl lg:text-5xl">contact us</h1>
                 <p className="text-[#7a7a7a] text-sm">Silahkan isi form di bawah ini</p>
             </div>
-            <div className="grid grid-cols-2  container mx-auto w-[60%]">
+            <div className="grid lg:grid-cols-2 md:grid-cols-2 container mx-auto w-[80%] lg:w-[60%]">
                 {/*  */}
                 <div className="mt-5">
                     <form action="" onSubmit={handleSubmit} autoComplete="off">
@@ -97,7 +97,7 @@ const Contact = () => {
                     </form>
                 </div>
                 {/*  */}
-                <div className="py-2 ms-28">
+                <div className="py-2 mt-10 lg:mt-0 md:ms-28 lg:ms-28">
                     <div>
                         <h1 className="uppercase text-hijau font-bold text-base">pt.aneka cipta aplikasi</h1>
                         <p className="text-xs">Jl. Raya Pos Pengumben, no. 12 EF, RT.5/RW.6, Kebon <br /> Jeruk - Jakarta Barat, DKI Jakarta 11560</p>

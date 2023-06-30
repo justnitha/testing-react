@@ -8,5 +8,14 @@
     max-height: 500px;
     transition: max-height 0.7s ease-in-out;
 }
+.hide-show-div2 {
+    max-height: 300px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}  
+.hide-show-div2.show2 {
+    max-height: 500px;
+    transition: max-height 0.7s ease-in-out;
+}
   
   

@@ -1,7 +1,5 @@
 import Navbar from "../../Components/Navbar"
-import Prm from "../../Components/Navigation/Prm"
 import React, { useState } from 'react';
-import { PromoGambar } from "../../Components/PromoGambar";
 import PromoImg from "../../Components/PromoImg";
 import Footer from "../../Components/Footer";
 import Scroll from "../../Components/ScrolTop";

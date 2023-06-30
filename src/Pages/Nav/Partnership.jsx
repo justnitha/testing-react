@@ -2,11 +2,12 @@ import Footer from "../../Components/Footer";
 import Navbar from "../../Components/Navbar";
 import Partner from "../../Components/Navigation/Partner";
 import Scroll from "../../Components/ScrolTop";
-import { ErrorMessage, useFormik } from "formik";
+import { useFormik } from "formik";
 import { PartnerSchema } from "../../schema/partner";
 import React, {useState} from "react";
 import "../../plugin/css/partner.css";
 import { pertanyaan } from "../../Components/js/Partner";
+import "../../plugin/css/dropson.css";
 
 
 
@@ -50,7 +51,7 @@ const Partnership =() => {
         <div>
             <Navbar/>
             <Partner/>
-            <form action="" onSubmit={handleSubmit} autoComplete="off" className="container mx-auto w-[47%] mt-16">
+            <form action="" onSubmit={handleSubmit} autoComplete="off" className="container mx-auto w-[80%] lg:w-[47%] mt-10 lg:mt-16">
                 <div className="py-1">
                     <label htmlFor="nama" className="block py-1 text-xs font-semibold ">Nama Lengkap <span className="text-red-500">*</span></label>
                     <input
@@ -162,16 +163,11 @@ const Partnership =() => {
                 </div>
                 <button disabled={isSubmitting} type="submit" className="block mx-auto py-2 px-6 rounded-lg mt-4 bg-hijau text-white capitalize" >kirim</button>
             </form>
-            <div className=" mt-40 mx-auto container">
-                <h1 className="uppercase text-hijau font-extrabold text-4xl text-center mb-16">f.a.q</h1>
+            <div className="mt-20 lg:mt-40 mx-auto container scroll-smooth">
+                <h1 className="uppercase text-hijau font-extrabold text-2xl lg:text-4xl text-center mb-5 lg:mb-16">f.a.q</h1>
                 {pertanyaan.map((item)=> (
-                    <div key={item.id} style={{
-                        width: '65%',
-                        padding: '10px',
-                        borderBottomWidth:"2px",
-                        borderColor:'slate',
-                        margin:"auto",
-                    }} className="text-sm">
+                    <div key={item.id} 
+                    className={`hide-show-div2 ${show[item.id] ? 'show2' : 'border-b border-slate-400 text-sm mx-auto w-[80%] lg:w-[65%] mt-5'}`}>
                         <button onClick={() => toggleVisibility(item.name)} className="text-start normal-case border-none text-xs w-full">
                             {show[item.name] ? "" : ""}
                             <div className="font-bold text-hijau">{item.name}</div>
