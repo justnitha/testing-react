@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testing-react/static/css/main.cc2adfa8.css",
-    "main.js": "/testing-react/static/js/main.070b58b7.js",
+    "main.css": "/testing-react/static/css/main.92e38192.css",
+    "main.js": "/testing-react/static/js/main.758b310c.js",
     "static/js/787.f6183f32.chunk.js": "/testing-react/static/js/787.f6183f32.chunk.js",
     "static/media/partner_img.png": "/testing-react/static/media/partner_img.e15c6b5beb82b69b1d67.png",
     "static/media/app-image.png": "/testing-react/static/media/app-image.ab6aedad2ce1b65b89ac.png",
@@ -53,12 +53,12 @@
     "static/media/slick.ttf": "/testing-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/testing-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/testing-react/index.html",
-    "main.cc2adfa8.css.map": "/testing-react/static/css/main.cc2adfa8.css.map",
-    "main.070b58b7.js.map": "/testing-react/static/js/main.070b58b7.js.map",
+    "main.92e38192.css.map": "/testing-react/static/css/main.92e38192.css.map",
+    "main.758b310c.js.map": "/testing-react/static/js/main.758b310c.js.map",
     "787.f6183f32.chunk.js.map": "/testing-react/static/js/787.f6183f32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc2adfa8.css",
-    "static/js/main.070b58b7.js"
+    "static/css/main.92e38192.css",
+    "static/js/main.758b310c.js"
   ]
 }
